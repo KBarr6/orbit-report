@@ -1,0 +1,37 @@
+.sortable {
+    cursor: pointer;
+    color: rgb(228, 80, 171);
+}
+
+.warning {
+    background-color: #c00f8b;
+}
+
+table {
+  color: #111;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 12px 0;
+  min-width: 300px;
+  background: #25e2f0;
+}
+
+.header-row {
+    background: #34495E;
+    color: #fff;    
+}
+
+th, td {
+    text-align: center;
+    margin: 5px 10px;
+    padding: 6px;
+    border: 1px solid #fff;
+}
+
+th {
+    background: rgb(66, 189, 238);
+    font-weight: bold;
+    text-align: center;
+}
+

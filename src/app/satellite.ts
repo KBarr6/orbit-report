@@ -5,11 +5,15 @@ type: string;
 operational: boolean;
 launchDate: string;
 constructor(name: string, type: string, launchDate: string, orbitType: string, operational: boolean){
-    this.name = string;
-    this.type = string;
-    this.launchDate = string;
-    this.orbitType = string;
-    this.operational = boolean;
+    this.name = name;
+    this.type = type;
+    this.launchDate = launchDate;
+    this.orbitType = orbitType;
+    this.operational = operational;
 };
+shouldShowWarning(): boolean {
+    return this.type == 'Space Debris';
+}
+
 }
 
