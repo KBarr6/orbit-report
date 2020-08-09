@@ -2,8 +2,7 @@
 <app-orbit-list [satellites]="displayList"></app-orbit-list>
 
 <div class="search-form">
-    <!--add input element-->
-    <button (click)="onClick(search(searchTerm.value))">Search</button>
-    <input (keyup.enter)="search(searchTerm.value)">
-  <p>{{values}}</p>
+    <input #searchTerm (keyup.enter)='search(searchTerm.value)' type='text' placeholder="Enter Item"/>
+    <button (click)="search(searchTerm.value)">Search</button>
+    
 </div>
